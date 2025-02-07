@@ -1,0 +1,47 @@
+p.solid{        
+border-style: solid double dashed ;
+border-width: thick;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50% );
+}
+p.doubled{
+ border-style: double;
+ border-width: medium;
+ border-radius: 2rem;
+}
+p.dashed{
+ border-style: dashed;
+ border-width: thick;
+}
+p.dotted{
+ border-style: dotted;
+ border-width: 1px;
+}
+p.groove{
+ border-style: groove;
+ border-width: 2px;
+}
+p.inset{
+ border-style: inset;
+ border-width: 5px;
+}
+p.outset{
+border-style: outset;
+}
+p.hidden{
+ border-style: hidden;
+}
+p.none{
+ border-style: none;
+}
+p.ridge{
+border-style: ridge;
+}
+button{
+    border: none;
+}
+.solid{
+    border-style: double;
+}
